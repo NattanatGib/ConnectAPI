@@ -7,13 +7,17 @@
 //
 
 import UIKit
-
+import Foundation
 //Step 3: Conform to the delegate protocol
 class TableViewController: UITableViewController, TableViewViewModelDelegate {
     func userDataDidDownloadData(sender: TableViewViewModel) {
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }
+    }
+    func userDataDidnotDownloadData(error: Error) {
+        //pop-up error
+        print("error kaaa")
     }
     
     var viewModel: TableViewViewModel = .init()
@@ -22,7 +26,7 @@ class TableViewController: UITableViewController, TableViewViewModelDelegate {
         super.viewDidLoad()
         //Step 4
         viewModel.delegate = self
-        viewModel.getDataFromAPI()
+        viewModel.getUserData()
     }
     
     // MARK: - Table view data source

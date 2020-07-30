@@ -16,7 +16,7 @@
 		AEA13A1C24CD2DCE0030CD41 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA13A1B24CD2DCE0030CD41 /* TableViewController.swift */; };
 		AEA13A1E24CD332B0030CD41 /* TableViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA13A1D24CD332B0030CD41 /* TableViewViewModel.swift */; };
 		AEA13A2024CF1EA10030CD41 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA13A1F24CF1EA10030CD41 /* TableViewCell.swift */; };
-		AEA13A4224D1973E0030CD41 /* TableViewUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA13A4124D1973E0030CD41 /* TableViewUsecase.swift */; };
+		AEA13A4224D1973E0030CD41 /* UserDataUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA13A4124D1973E0030CD41 /* UserDataUseCase.swift */; };
 		AEA13A4524D27B2A0030CD41 /* TableViewNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA13A4424D27B2A0030CD41 /* TableViewNetwork.swift */; };
 		B6A7669B1D08B836ADB8007E /* Pods_ConnectAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160AA1FC2CB8720BF5F45201 /* Pods_ConnectAPI.framework */; };
 /* End PBXBuildFile section */
@@ -36,7 +36,7 @@
 		AEA13A1B24CD2DCE0030CD41 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		AEA13A1D24CD332B0030CD41 /* TableViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewModel.swift; sourceTree = "<group>"; };
 		AEA13A1F24CF1EA10030CD41 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		AEA13A4124D1973E0030CD41 /* TableViewUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUsecase.swift; sourceTree = "<group>"; };
+		AEA13A4124D1973E0030CD41 /* UserDataUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataUseCase.swift; sourceTree = "<group>"; };
 		AEA13A4424D27B2A0030CD41 /* TableViewNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,10 +88,10 @@
 		AEA13A4324D27ADC0030CD41 /* UserList */ = {
 			isa = PBXGroup;
 			children = (
-				AEA13A1B24CD2DCE0030CD41 /* TableViewController.swift */,
 				AEA13A1F24CF1EA10030CD41 /* TableViewCell.swift */,
+				AEA13A1B24CD2DCE0030CD41 /* TableViewController.swift */,
 				AEA13A1D24CD332B0030CD41 /* TableViewViewModel.swift */,
-				AEA13A4124D1973E0030CD41 /* TableViewUsecase.swift */,
+				AEA13A4124D1973E0030CD41 /* UserDataUseCase.swift */,
 				AEA13A4424D27B2A0030CD41 /* TableViewNetwork.swift */,
 			);
 			path = UserList;
@@ -233,7 +233,7 @@
 				AEA13A0C24CD2CDE0030CD41 /* ViewController.swift in Sources */,
 				AEA13A4524D27B2A0030CD41 /* TableViewNetwork.swift in Sources */,
 				AEA13A0824CD2CDE0030CD41 /* AppDelegate.swift in Sources */,
-				AEA13A4224D1973E0030CD41 /* TableViewUsecase.swift in Sources */,
+				AEA13A4224D1973E0030CD41 /* UserDataUseCase.swift in Sources */,
 				AEA13A2024CF1EA10030CD41 /* TableViewCell.swift in Sources */,
 				AEA13A0A24CD2CDE0030CD41 /* SceneDelegate.swift in Sources */,
 				AEA13A1C24CD2DCE0030CD41 /* TableViewController.swift in Sources */,
